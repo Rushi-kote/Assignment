@@ -1,0 +1,85 @@
+.form{
+    position: absolute;
+    border: 1px solid;
+    background-color: white;
+    color: black;
+    top: 100px;
+    left: 51%;
+    height: 95vh;
+    padding: 0 20px 20px 20px;
+    width: 454px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 20px;
+}
+
+.form-heading{
+    margin: 0;
+    font-family: aktifoa-semiBold;
+    text-align: left;
+}
+
+.form-para{
+    font-family: aktifoa-book;
+}
+
+.inputHolder{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.input-lable-holder{
+    flex-basis: 40%;
+    max-width: 300px;
+    text-align: left;
+}
+
+
+
+input,label,select{
+    display: inline-block;
+    text-align: left;
+    border-radius: 5px;
+    width: 200px;
+}
+
+label{
+    font-family: aktifoa-light;
+    font-size: initial;
+    width: auto;
+}
+
+.input-lable-holder-out{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+.out-selection{
+    width: 430px;
+}
+
+.error{
+    color: red;
+}
+
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+    .form{
+        position: absolute;
+        top: 492px;
+        left: 0%;
+        z-index: 1;
+        display: inline-block;
+        width: 395px;
+    }
+}

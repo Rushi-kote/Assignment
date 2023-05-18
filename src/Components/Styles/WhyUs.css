@@ -1,0 +1,83 @@
+.whyus-div-main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.whyus-div-bg-container{
+    background-image: url('../Assets/GS_DIGITAL_AD_WALL_FILMS_INTERIOR_DESIGN_COLLECTION_Indoor_MPI8621_Removable.png');
+    background-size: cover;
+    height: 100%;
+    width: 55%;
+}
+
+.whyus-content-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E5E5;
+    width: 100%;
+    gap: 40px;
+    padding-left: 31px;
+}
+
+.whyus-heading{
+    font-size: xx-large;
+}
+
+.whyus-content-container-flex{
+    display: flex;
+    align-items: center;
+    gap: 53px;
+}
+
+.flex-logo-container{
+    background-color: #ffff;
+    height: 80px;
+    min-width: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-logo-container img{
+    height: 70%;
+}
+
+.flex-content-items{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 580px;
+}
+
+.flex-content-para{
+    font-size: smaller;
+    text-align: left;
+}
+
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+    .whyus-content-container-flex{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        padding: 0;
+    }
+
+    .flex-content-items{
+        width: 100%;
+    }
+
+    .whyus-div-main-container{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .whyus-content-container {
+        padding: 2px;
+    }
+
+}

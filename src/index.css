@@ -1,0 +1,57 @@
+body {
+  max-width: 1200px;
+  height: auto;
+  text-align: center;
+  /* border: 1px solid; */
+  margin: auto;
+  font-family: "Aktifo A Bold Oblique Regular",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: aktifoa-book;
+  src: url("../public/Fontspring-DEMO-aktifoa-book.otf");
+}
+
+.aktifoa-book{
+  font-family: aktifoa-book;
+}
+
+@font-face {
+  font-family: aktifoa-light;
+  src: url("../public/Fontspring-DEMO-aktifoa-light.otf");
+}
+
+.aktifoa-light{
+  font-family: aktifoa-light;
+}
+
+@font-face {
+  font-family: aktifoa-semiBold;
+  src: url("../public/Fontspring-DEMO-aktifoa-semibold.otf");
+}
+
+.aktifoa-semiBold{
+  font-family: aktifoa-semiBold;
+}
+
+@font-face {
+  font-family: aktifoa-medium;
+  src: url("../public/Fontspring-DEMO-aktifoa-medium.otf");
+}
+
+.aktifoa-medium{
+  font-family: aktifoa-medium;
+}
+
+p{
+  margin: 0;
+}

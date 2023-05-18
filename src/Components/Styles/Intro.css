@@ -1,0 +1,113 @@
+.intro-div-main-container{
+    background-image: url('../Assets/banner_image.png');
+    background-size: cover;
+    background-position: right;
+    height: 95vh;
+    overflow: hidden;
+}
+
+.intro-div-logo-container{
+    position: relative;
+    display: inline-block;
+    top: 45px;
+    left: -33%;
+    height: 70px;
+}
+
+.intro-div-logo-content{
+    height: 100%;
+    width: 100%;
+}
+
+.intro-div-content-container{
+    position: relative;
+    left: 80px;
+    top: 155px;
+    align-items: self-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 368px;
+    width: 429px;
+}
+
+.intro-div-content-heading{
+    width: 386px;
+    font: 51px/64px;
+}
+
+.intro-div-content-heading p{
+    text-align: left;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.intro-div-content-para{
+    width: 362px;
+
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: black;
+    justify-content: center;
+}
+
+.intro-div-content-logos{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 400px;
+}
+.intro-div-content-logos-flexItems{
+    display: flex;
+    width: 75px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-div-content-logos-flexItems p{
+    margin: 0;
+}
+
+.display{
+    display: none;
+}
+
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+
+    .intro-div-main-container{
+        background-image: url('../Assets/banner_image.png');
+        background-position: -421px 330px;
+        height: 87vh;
+        background-size: 215%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+
+    .intro-div-logo-container{
+        position: relative;
+        display: inline-block;
+        top: 45px;
+        left: -21%;
+        height: 70px;
+    }
+    .intro-div-content-container{
+        left: 5px;
+        top: 14px;
+        height: 362px;
+        width: 380px;
+    }
+    .display{
+        display: inline-block;
+    }
+
+}

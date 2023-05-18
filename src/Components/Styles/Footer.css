@@ -1,0 +1,40 @@
+.footer-div-main-container{
+    height: 24vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-flex-items{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-flex-span{
+    width: 200px;
+    font-size: small;
+}
+
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+    .footer-div-main-container{
+        height: 85vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer-flex-items{
+        
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 0px;
+
+    }
+}
